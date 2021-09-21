@@ -30,19 +30,20 @@ h1 {
     text-shadow: 1px 1px 1px #f8020211;
     margin: 0 0 50px 0;
 }
-/* .principal {
+.principal {
     background-image:url('/img/');
     clear: both;
     background-size: 100%;
     min-height: 300px;
     padding:  50px 0 0 0;
-} */
+}
 .logo {
 float: left;
 }
 .menu {
     float: right;
-    margin-top: 50px;
+    margin-top: 40px;
+       
 }
 .menu a {
     padding: 52px;
@@ -52,6 +53,9 @@ float: left;
 .menu a:hover {
     background-color: #323c3f;
     color: #35b8b0;
+    -webkit-box-shadow: 6px 6px 3px 0px rgba(39,149,168,1);
+    -moz-box-shadow: 6px 6px 3px 0px rgba(39,149,168,1);
+    box-shadow: 6px 6px 3px 0px rgba(11, 112, 129, 0.555);
 }
 .container {
     width: 960px;
